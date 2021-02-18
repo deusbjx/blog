@@ -2872,7 +2872,8 @@ pre .id {
 .toc-container.tooltip-left .tooltip-east .tooltip-content .toc-article {
   max-height: 500px;
   overflow-x: hidden;
-  overflow-y: auto
+  /* overflow-y: auto */
+  overflow-y: hidden
 }
 
 .toc-container.tooltip-left .tooltip-east .tooltip-content .toc-article li ol,
@@ -4303,10 +4304,10 @@ a.pswp__share--download:hover {
 }
 
 .toc-article {
-  z-index: 100;
+  z-index: 999;
   background: #fff;
   border: 1px solid #ccc;
-  max-width: 250px;
+  max-width: 150px;
   min-width: 150px;
   max-height: 500px;
   overflow-y: auto;
